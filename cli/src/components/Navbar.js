@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import { logoSilver, logoGold } from "../utils/Lists";
+import { logoSilver,  close } from "../utils/Lists";
 import "../styles/Navbar.scss";
 
 const Navbar = () => {
@@ -13,6 +13,7 @@ const Navbar = () => {
     { label: "Sell", path: "/Sell" },
     { label: "Supply", path: "/Supply" },
     { label: "About Us", path: "/AboutUs" },
+    { label: "Contact Us", path: "/ContactUs" },
     { label: "Login", path: "/login" },
   ];
 
@@ -30,7 +31,7 @@ const Navbar = () => {
 
   const NavbarLogo = ({ logo }) => (
     <Link to="/" onClick={closeMenu}>
-      {/* <img className="logo" src={logo} alt="" /> */}
+   
       <h1 className="nav-logo"><span className="Logo__span">GAD</span>o</h1>
     </Link>
   );
@@ -67,11 +68,11 @@ const Navbar = () => {
   };
 
   const BurgerMenu = () => (
-    <div className="burger-menu" onClick={openMenu}>
+    <div className="burger-menu" onClick={openMenu} >
       <div />
       <div />
       <div />
-      <div />
+      {/* <div /> */}
     </div>
   );
 
@@ -80,7 +81,6 @@ const Navbar = () => {
       <div className="navbar">
         <NavbarLogo logo={logoSilver} />
         <Navigations />
-
         <BurgerMenu />
       </div>
 
@@ -95,10 +95,11 @@ const Navbar = () => {
               showMenu ? "slide-in-left" : "slide-out-left"
             }`}
           >
-            {/* <NavbarLogo logo={logoGold} /> */}
+            <img src={close} alt="" onClick={closeMenu} className="closeIcon"/>
             <Navigations
               additionalClasses={showMenu ? "slide-up" : "slide-down"}
             />
+            <button className="btn-gold"> <Link to="/sign-up">Sign Up</Link></button>
           </div>
         </>
       )}

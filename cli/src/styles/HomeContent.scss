@@ -1,0 +1,18 @@
+@import "../partials/fonts";
+@import "../partials/mixins";
+@import "../partials/variables";
+@import "./Animations";
+
+.context{
+    background-color: $offwhite;
+  
+    padding: 2rem 1rem;
+    border:none;
+}
+
+.context p{ 
+    color:$black;
+    text-align: center;
+    @include light; 
+    font-size: 20px;
+}

@@ -27,6 +27,7 @@ import trustworthy from "../assets/icons/trustworthy.png";
 import express from "../assets/icons/shipping.png";
 import easy from "../assets/icons/easyy.png";
 import messages from "../assets/icons/messages.png";
+import close from "../assets/icons/closed.png";
 
 // Pictures
 import howItWorks1 from "../assets/pics/howItWorks1.png";
@@ -72,5 +73,6 @@ export {
   express,
   easy, 
   messages, 
-  boxed
+  boxed, 
+  close
 };
