@@ -4,10 +4,11 @@
 @import "./Animations";
 
 .context{
-    background-color: $offwhite;
-  
     padding: 2rem 1rem;
     border:none;
+    &__p{
+        padding: 0.5rem 0; 
+    }
 }
 
 .context p{ 

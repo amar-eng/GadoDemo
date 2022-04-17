@@ -1,0 +1,61 @@
+@import "../partials/fonts";
+@import "../partials/mixins";
+@import "../partials/variables";
+@import "./Animations";
+
+.in-touch{
+    height: 260px;
+    // background: linear-gradient(rgba(116, 172, 227, 0.2), rgba(142, 181, 33, 0.5)), url('../assets/pics/pattern.svg') no-repeat center center;
+    background: linear-gradient(rgba(19, 60, 40, 0.97), rgba(0,0,0, 0.5)), url('../assets/pics/pattern.svg') no-repeat center center;
+    // background: linear-gradient(rgba(0,0,0, 0.97), rgba(0,0,0, 0.5)), url('../assets/pics/pattern.svg') no-repeat center center;
+    width: 100%;
+    color : $white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    // background-color: $offwhite;
+
+    &__header{
+        @include normal;
+        font-size: 2rem;
+        padding: 1rem;
+    }
+
+    &__p{
+        @include light;
+        font-size: 1.1rem;
+        padding: 0 1rem 1.1rem 1rem;
+        
+    }
+    &__btn{
+        background-color: $golden;
+        color: $green;
+        border-radius: 5px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.7rem 1rem;
+        font-size: 16px;
+     @include light;
+        text-align: center;
+        border: 2px solid $golden;
+        transition: all ease-in-out 0.3s;
+        width: 170px;
+        height: 34px;
+        margin: 0.5rem 1.5rem;
+        &:hover {
+          background-color: $gold;
+          color: $navy;
+          border: 1px solid $gold;
+        }
+       }
+
+}
+
+.touch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

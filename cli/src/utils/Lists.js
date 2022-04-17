@@ -28,7 +28,11 @@ import express from "../assets/icons/shipping.png";
 import easy from "../assets/icons/easyy.png";
 import messages from "../assets/icons/messages.png";
 import close from "../assets/icons/closed.png";
-
+import verified from "../assets/icons/verified.svg";
+import checked from "../assets/icons/checkedd.svg";
+import left from "../assets/icons/left.svg";
+import right from "../assets/icons/right.svg";
+ 
 // Pictures
 import howItWorks1 from "../assets/pics/howItWorks1.png";
 import howItWorks2 from "../assets/pics/howItWorks2.png";
@@ -38,6 +42,9 @@ import product from "../assets/pics/product.png";
 import ourStoryPic from "../assets/pics/ourStory.png";
 import leoPic from "../assets/pics/leo.png";
 import boxed from "../assets/pics/boxed.jpg";
+import global from '../assets/pics/global.svg';
+import pattern from '../assets/pics/pattern.svg';
+
 
 export {
   logoSilver,
@@ -74,5 +81,11 @@ export {
   easy, 
   messages, 
   boxed, 
-  close
+  close, 
+  verified, 
+  checked,
+  global, 
+ left, 
+ right, 
+ pattern
 };

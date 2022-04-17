@@ -1,0 +1,23 @@
+@import "../partials/fonts";
+@import "../partials/mixins";
+@import "../partials/variables";
+@import "./Animations";
+
+.global{
+   height: 260px;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../assets/pics/global.svg') no-repeat center center;
+    color : white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+&__title{ 
+    padding: 0 3rem;
+    text-align: center;
+   @include normal;  
+}
+&__span{ 
+    color: $golden;
+}
+}
+
+

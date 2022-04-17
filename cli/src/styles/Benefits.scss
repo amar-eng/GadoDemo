@@ -1,0 +1,40 @@
+@import "../partials/fonts";
+@import "../partials/mixins";
+@import "../partials/variables";
+@import "./Animations";
+
+.benefits{ 
+  @include normal; 
+    text-align: center;
+    padding: 0 1rem 2rem 1rem;
+   letter-spacing: -2px;
+   text-transform: capitalize;
+   font-size: 2.5rem;
+
+}
+
+.block{
+    // background-color: $offwhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem 3rem;
+
+    &__icon{
+        width: 50px;
+        height: 50px;
+    }
+    &__sub-heading{
+        @include light; 
+        color: $golden; 
+        padding: 0.5rem 0;
+    }
+
+    &__paragraph{
+        @include light; 
+        color: $green; 
+        padding: 0.5rem 0;
+    }
+}

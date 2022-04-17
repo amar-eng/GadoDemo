@@ -5,7 +5,7 @@ import "../styles/OurProducts.scss";
 const OurProducts = () => {
   const blocks = [
     {
-      heading: "Trustworthy and reliable",
+      heading: "Verified Products",
       icon: trust,
       // paragraph:
       //   "Help your friends smell better and boost confidence. Refer 5 friends to subscribe and enjoy an instant FREE upgrade to our Elite level!",
