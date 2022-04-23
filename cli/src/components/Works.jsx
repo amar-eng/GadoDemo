@@ -4,7 +4,7 @@ import { checked } from "../utils/Lists";
 const Works = () => {
     const blocks = [
         {
-          heading: "As a Vendor",
+          heading: "As a Drop Shipper",
           icon: checked,
           one: 'Contact a supplier',
           two: 'List your product',
@@ -34,7 +34,9 @@ const Works = () => {
     {
         blocks.map((b, index) => {
             return (
+              <div className='works__container'>
                 <div className='works__block' key={index}>
+                 
                    <h2 className='works__heading'>{b.heading}</h2>
                    <div className='works__content'>
                     <div className='works__info'>
@@ -52,7 +54,7 @@ const Works = () => {
                     
                    </div>
                    <button className='works__button'>Get Started</button>
-                   
+                   </div>
                 </div>
             )
         }

@@ -1,8 +1,9 @@
 import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import "./App.scss";
-import Home from "./screens/HomeScreen";
 
+import "./App.scss";
+import AboutScreen from "./screens/AboutScreen";
+import Contact from "./screens/Contact";
+import Home from "./screens/HomeScreen";
 import Merchant from "./screens/Merchant";
 import Supplier from "./screens/Supplier";
 
@@ -12,10 +13,12 @@ function App() {
      
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/merchant" element={<Merchant/>} />
-        <Route path="/supplier" element={<Supplier />} />
+        <Route path="/sell" element={<Merchant/>} />
+        <Route path="/supply" element={<Supplier />} />
+        <Route path="/AboutUs" element={<AboutScreen />} />
+        <Route path="/Contact" element={<Contact />} />
       </Routes>
-      {/* <Footer /> */}
+     
     </>
   );
 }

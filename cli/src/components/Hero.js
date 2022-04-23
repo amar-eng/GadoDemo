@@ -29,13 +29,13 @@ const Hero = () => {
           </div>
           <div className="info__buttons">
           <Link to="/" className="info__btn slide-up">
-            Shop
+            Shop Now
           </Link>
           <Link to="/Sell" className="info__btn slide-up">
-            Become a Vendor
+            I'm a Drop-Shipper
           </Link>
           <Link to="/Supply" className="info__btn slide-up">
-            Im a supplier
+            Become a supplier
           </Link>
         </div>
       </div>

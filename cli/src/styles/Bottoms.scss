@@ -1,0 +1,59 @@
+@import "../partials/fonts";
+@import "../partials/mixins";
+@import "../partials/variables";
+@import "./Animations";
+
+.bottom{
+    // background-color: $offwhite;
+  &__block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+  }
+  &__heading{
+    @include normal; 
+    font-size: 22px;
+    color: $green;
+    padding: 0.5rem;
+    
+  }
+
+  &__icon{
+      width: 45px;
+      height: 45px;
+  }
+
+  &__text{
+    padding: 1rem 3rem ;
+    color: $black;
+    @include light;
+    font-size: 15px;
+    text-transform: capitalize;
+  }
+
+  &__button{
+    background-color: $golden;
+    color: $green;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem 1rem;
+    font-size: 13px;
+ @include light;
+    text-align: center;
+    border: 2px solid $golden;
+    transition: all ease-in-out 0.3s;
+    width: 170px;
+    height: 34px;
+    margin: 0.5rem 1.5rem;
+    &:hover {
+      background-color: $gold;
+      color: $navy;
+    }
+   }
+
+}

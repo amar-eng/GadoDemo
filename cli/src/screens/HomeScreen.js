@@ -7,18 +7,22 @@ import Global from "../components/Global";
 import Works from "../components/Works";
 import Testimonial from "../components/Testimonial";
 import Intouch from "../components/Intouch";
+import Bottom from "../components/Bottom";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
     <div className = 'homePage' >
       
-      <Hero />
+    <Hero />
      <HomeContent/>
      <Benefits/>
      <Works/>
      <Global/>
      <Testimonial/>
      <Intouch/>
+     <Bottom/>
+     <Footer/>
     </div>
   );
 };

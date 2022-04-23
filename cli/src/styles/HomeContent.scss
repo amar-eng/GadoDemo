@@ -7,13 +7,37 @@
     padding: 2rem 1rem;
     border:none;
     &__p{
-        padding: 0.5rem 0; 
+        padding: 0.5rem 1rem; 
+        color:$green;
+    text-align: center;
+    @include light; 
+    font-size: 19px;
+    line-height: 2rem;
+    @include tablet{
+        font-size: 22px;
+    }
+        
+    }
+    &__span{
+        color: $golden;
+        text-transform: uppercase;
+    }
+    &__logo{
+        @include cinzel-light;
+        font-size: 22px;
+        text-transform: capitalize;
+        color: $golden;
+        @include tablet{
+            font-size: 25px;
+        }
+    }
+    &__o{
+        @include cinzel-light;
+        font-size: 19px;
+        color: $golden;
+        @include tablet{
+            font-size: 22px;
+        }
     }
 }
 
-.context p{ 
-    color:$black;
-    text-align: center;
-    @include light; 
-    font-size: 20px;
-}

@@ -9,14 +9,19 @@ $ultra: 1540px;
 
 $golden: #E9B500;
 $navy: #112f59;
-$offwhite: #e7f2f5;
+$offwhite: rgb(231, 242, 245);
 $black: #000000;
 $white: #e8ecedef;
 
 $gold: #E4DEAE;
 $green: #184D47;
+$green: rgb(24, 78, 71);
 $silver: #B7BF96;
 $black: #011B10;
 $orange:#F58B00;
 $lightgreen:#00917C; 
-$lightblue:#A5F0C5; 
+$lightblue:#074fa8; 
+
+$white-40: rgba(255, 255, 255, 0.7);
+$white-25: rgba(255, 255, 255, 0.5);
+$backdrop-blur: blur(5px);

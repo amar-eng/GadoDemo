@@ -1,0 +1,28 @@
+@import "../partials/fonts";
+@import "../partials/mixins";
+@import "../partials/variables";
+@import "./Animations";
+
+.story{
+    &__header{
+        @include normal; 
+        text-align: center;
+        padding:1.5rem;
+        letter-spacing: -2px;
+        text-transform: capitalize;
+        font-size: 2.5rem;
+        color: $golden;
+    }
+    &__text{
+        @include light; 
+        text-align: center;
+        padding: 2rem;
+       line-height: 2rem;
+        font-size: 1.2rem;
+        color: $green;
+    }
+    &__span{
+        color: $golden;
+        text-transform: uppercase;
+    }
+}

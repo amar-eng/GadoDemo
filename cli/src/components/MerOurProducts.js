@@ -16,7 +16,7 @@ const MerOurProducts = () => {
           heading: "Open Communication",
           icon: messages,
           paragraph:
-            "It's paramount that you and the suppliers are on the same page. We ensure this by providing a transparent platform where your exact requirements are communicated and met! ",
+            "It's paramount that you and the suppliers are on the same page. We ensure this by providing a messaging centre where your exact requirements are communicated and met! ",
         },
         {
           heading: "Simple Inventory Tracking",
@@ -31,10 +31,11 @@ const MerOurProducts = () => {
 
         <div className="our-products-blocks">
         {blocks.map((block, index) => (
-            <div key={index} className="block">
-            <img className="icon" src={block.icon} alt="" />
-            <h3 className="sub-heading">{block.heading}</h3>
-            <p className="paragraph">{block.paragraph}</p>
+            <div key={index} className="our-products-blocks__block">
+             <img className="our-products-blocks__icon" src={block.icon} alt="" />
+              <h3 className="our-products-blocks__sub-heading">{block.heading}</h3>
+              
+              <p className="our-products-blocks__paragraph">{block.paragraph}</p>
             </div>
         ))}
         </div>

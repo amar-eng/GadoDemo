@@ -11,21 +11,57 @@
    text-transform: capitalize;
    font-size: 2.5rem;
    
+   
 
    &__icon{
        width: 20px;
-         height: 20px;
+       height: 20px;
+       
+       @include tablet{
+        width: 25px;
+        height: 25px;
+         }
    }
+
+   &__container{
+       @include tablet{
+        //    background-color: green;
+        //    display: flex;
+        //    flex-direction: row;
+        //    align-items: center;
+        //    justify-content: space-between;
+       }
+    //    display: flex;
+       @include desktop{
+        //       background-color: green;
+        //    display: flex;
+        //    flex-direction: row;
+        //    align-items: center;
+        //    justify-content: space-between;
+       }
+
+   }
+
+
 
    &__block{
        background-color: $offwhite;
        margin: 1rem 3rem ;
        padding: 1rem 2rem 2rem 2rem;
+    //    border: 1px solid red;
        color: $black;
+  
+    @include tablet{
+        margin: 1rem 12rem ;
+        padding: 1rem 3rem 2rem 3rem;
+    }
    }
    &__info{
        display: flex;
        align-items: center;
+       @include tablet{
+        font-size: 20px;
+    }
        
    }
 
@@ -34,6 +70,9 @@
        color: $green;
        @include light;
        font-size: 15px;
+       @include tablet{
+           font-size: 20px;
+       }
    }
 
    &__heading{
@@ -45,7 +84,7 @@
    &__button{
     background-color: $golden;
     color: $green;
-    // border-radius: 5px;
+    border-radius: 5px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -61,6 +100,10 @@
     &:hover {
       background-color: $gold;
       color: $navy;
+    }
+    @include tablet{
+        margin: 1.5rem 3.5rem;
+        font-size: 16px;
     }
    }
 }

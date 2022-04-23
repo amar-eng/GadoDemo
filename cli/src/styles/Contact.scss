@@ -1,0 +1,133 @@
+@import "../partials/fonts";
+@import "../partials/mixins";
+@import "../partials/variables";
+@import "./Animations";
+.contact{
+    background: linear-gradient(rgba(0,0,0,0.40), rgba(0,0,0,0.80)), url(../assets/pics/white.jpg) no-repeat ;
+    background-size: cover;
+    height: 100vh;
+    // border: 1px solid red;
+
+    &__contain{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        color: $white;
+        // padding: 0;
+        // background-color: red;
+        // margin: 3rem;
+        // position: relative;
+        // z-index: 1;
+        // border: 3px solid red;
+
+    }
+
+    &__wrapper{
+    //   border: 2px solid brown; 
+        border-radius: 5px;
+        // height: 100%;
+        width: 100%;
+        text-align: center; 
+        // background-color: $white-25; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        // padding: 3rem
+        // height: 100%;
+
+    }
+    &__header{
+        @include normal;
+        color: $golden;
+        font-size: 28px;
+        margin: 4rem 4rem 2rem 4rem;
+    }
+    &__input{
+        // width: 100%;
+        height: 40px;
+        border: 1px solid $green;
+        border-radius: 5px;
+        padding: 0.5rem;
+        // margin: 0.5rem;
+        @include normal;
+        color: $green;
+        font-size: 14px;
+        accent-color: green;
+        
+    }
+   
+    &--form{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        @include light;
+        margin: 1rem;
+
+    }
+    &__form{
+        
+        width: 100%;
+        
+       
+        &--info{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            // justify-content: space-between;
+            // border: 1px solid red;
+            // padding: 0.5rem;
+            // margin: 0.5rem;
+            // height: 100%;
+            // width: 100%;
+            // background-color: red;
+            // position: relative;
+            // z-index: 1;
+            // border: 3px solid red;
+        }
+        &--text{
+            margin-left: 0.5rem;
+        }
+    }
+}
+
+.contacts{
+    
+    &__contact{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+        margin: 0 3rem 1rem 3rem ;
+        text-align: left;
+      }
+      &__phone{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      &__text{
+        @include bold; 
+        font-size:0.95rem;
+        text-align: left;
+        padding:0 0.3rem;
+        color: $white;
+        margin-left: 1rem;
+        text-align: left;
+      }
+      &__icons{
+        padding: 0;
+        width: 40px;
+        height: 40px;
+        text-align: left;
+      }
+      &__icon{
+        width: 30px;
+        height: 30px;
+        text-align: left;
+      }
+}

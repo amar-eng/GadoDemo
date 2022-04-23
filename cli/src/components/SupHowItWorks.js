@@ -11,7 +11,7 @@ const SupHowItWorks = () => {
             "As a supplier, enjoy listing your products on our platform in a simplest and most intuitive way. ",
         },
         {
-          heading: "Communicate with merchant",
+          heading: "Communicate with Vendor",
           image: howitworks4,
           // paragraph:
           //   "Jump on board to the best monthly cologne subscription around. Switch up your scent to match your energy",

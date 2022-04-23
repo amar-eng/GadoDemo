@@ -10,10 +10,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    @include tablet{
+        background-size: cover;
+        height: 350px;
+    }
 &__title{ 
     padding: 0 3rem;
     text-align: center;
    @include normal;  
+   @include tablet{
+       font-size: 3rem;
+   }
 }
 &__span{ 
     color: $golden;

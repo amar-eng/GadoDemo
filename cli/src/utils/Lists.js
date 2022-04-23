@@ -5,8 +5,8 @@ import logoGold from "../assets/logos/logoGold.png";
 // Icons
 import pinterest from "../assets/icons/pinterest.svg";
 import linkedin from "../assets/icons/linkedin.svg";
-import facebook from "../assets/icons/facebook.svg";
-import twitter from "../assets/icons/twitter.svg";
+import facebook from "../assets/icons/facebookk.svg";
+import twitter from "../assets/icons/twitt.svg";
 import phone from "../assets/icons/phone.svg";
 import mail from "../assets/icons/mail.svg";
 import locationMark from "../assets/icons/locationMark.svg";
@@ -32,6 +32,18 @@ import verified from "../assets/icons/verified.svg";
 import checked from "../assets/icons/checkedd.svg";
 import left from "../assets/icons/left.svg";
 import right from "../assets/icons/right.svg";
+import cart from "../assets/icons/cart.svg";
+import vending from "../assets/icons/vending.svg";
+import supplier from "../assets/icons/supplier.svg";
+import email from "../assets/icons/emaill.svg";
+import whatsapp from "../assets/icons/whatsapp.svg";
+import instagram from "../assets/icons/instagram.svg";
+import tiktok from "../assets/icons/tiktokkk.svg";
+import link from "../assets/icons/linkedinn.svg";
+import message from "../assets/icons/messagee.svg";
+import telephone from "../assets/icons/telephone.svg";
+
+
  
 // Pictures
 import howItWorks1 from "../assets/pics/howItWorks1.png";
@@ -44,6 +56,19 @@ import leoPic from "../assets/pics/leo.png";
 import boxed from "../assets/pics/boxed.jpg";
 import global from '../assets/pics/global.svg';
 import pattern from '../assets/pics/pattern.svg';
+import vendorhero from '../assets/pics/vendorhero.png';
+import supply from '../assets/pics/supply.png';
+import truss from '../assets/pics/truss.png';
+import tracking from '../assets/pics/trackingg.jpg';
+import com from '../assets/pics/messaging.jpg';
+import map from '../assets/pics/map.png';
+import about from '../assets/pics/about.png';
+import sell from '../assets/pics/sell.jpg';
+import hero4 from '../assets/pics/hero4.jpg';
+import work from '../assets/pics/work.jpg';
+import working from '../assets/pics/working.jpg';
+import shop from '../assets/pics/shopp.jpg';
+import office from '../assets/pics/officee.jpg';
 
 
 export {
@@ -87,5 +112,28 @@ export {
   global, 
  left, 
  right, 
- pattern
+ pattern, 
+ cart, 
+ vending,
+  supplier, 
+  email, 
+  instagram, 
+  whatsapp,
+  tiktok, 
+  vendorhero, 
+  tracking, 
+  com, 
+  truss,
+  supply, 
+  map, 
+  about, 
+  link, 
+  sell, 
+  hero4, 
+  work, 
+  working, 
+  shop, 
+  office,
+  message, 
+  telephone
 };

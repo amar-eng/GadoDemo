@@ -6,10 +6,12 @@
 .in-touch{
     height: 260px;
     // background: linear-gradient(rgba(116, 172, 227, 0.2), rgba(142, 181, 33, 0.5)), url('../assets/pics/pattern.svg') no-repeat center center;
-    background: linear-gradient(rgba(19, 60, 40, 0.97), rgba(0,0,0, 0.5)), url('../assets/pics/pattern.svg') no-repeat center center;
+    // background: linear-gradient(rgba(19, 60, 40, 0.97), rgba(0,0,0, 0.5)), url('../assets/pics/pattern.svg') no-repeat center center;
+    background: linear-gradient(rgb(35, 98, 92), rgba(24, 78, 71, 0.65)),  no-repeat center center;
+    background: linear-gradient(rgb(231, 242, 245), rgb(231, 242, 245,0.1)),  no-repeat center center;
     // background: linear-gradient(rgba(0,0,0, 0.97), rgba(0,0,0, 0.5)), url('../assets/pics/pattern.svg') no-repeat center center;
     width: 100%;
-    color : $white;
+    color : $golden;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,6 +27,7 @@
 
     &__p{
         @include light;
+        color: $green;
         font-size: 1.1rem;
         padding: 0 1rem 1.1rem 1rem;
         
@@ -58,4 +61,5 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 2rem 0 ;
 }
