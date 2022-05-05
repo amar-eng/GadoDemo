@@ -28,6 +28,7 @@ const How = () => {
         <h1 className='how__title'>
             How it works
         </h1>
+        <div className="how__container">
         {
             blocks.map((block, index) => {
                 return (
@@ -46,10 +47,12 @@ const How = () => {
                     </div>
                 )
             }
+            
 
             )
 
         }
+        </div>
     </div>
   )
 }

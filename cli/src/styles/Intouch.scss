@@ -23,6 +23,9 @@
         @include normal;
         font-size: 2rem;
         padding: 1rem;
+        @include tablet{
+            padding-bottom: 1.25rem;
+        }
     }
 
     &__p{
@@ -30,6 +33,12 @@
         color: $green;
         font-size: 1.1rem;
         padding: 0 1rem 1.1rem 1rem;
+        @include tablet{
+            padding: 0 8rem 1.1rem 8rem;
+            font-size:1.4rem;
+            line-height: 2rem;
+            // background-color: red;
+        }
         
     }
     &__btn{

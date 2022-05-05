@@ -7,8 +7,9 @@ const Gallery = ({trust, com, tracking}) => {
         
         <img className='gallery__trust' src={trust} alt='trust'/>
         <div className='gallery__container'>
+            {/* <img className='gallery__trust' src={trust} alt='trust'/> */}
             <img className='gallery__img' src={com} alt='com'/>
-            <img className='gallery__img' src={tracking} alt='tracking'/>
+            <img className=' gallery__tracking' src={tracking} alt='tracking'/>
         </div>
     </div>
   )

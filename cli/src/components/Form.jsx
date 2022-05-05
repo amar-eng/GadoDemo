@@ -14,10 +14,18 @@ const Form = () => {
   return (
     <div>
         <form className='form2'>
-            <input type='text' className='form2__input' placeholder='Full Name'/>
-            <input type='text' className='form2__input' placeholder='Email'/>
-            <input type='text' className='form2__input' placeholder='Phone Number'/>
-            <input type='text' className='form2__input' placeholder='Your City, Country'/>
+          <div className='form2__group'>
+            <div className="form2__group1">
+              <input type='text' className='form2__input' placeholder='Full Name'/>
+              <input type='text' className='form2__input' placeholder='Email'/>
+            </div>
+            <div className="form2__group2">
+              <input type='text' className='form2__input' placeholder='Phone Number'/>
+              <input type='text' className='form2__input' placeholder='Your City, Country'/>
+            </div>
+            
+            
+            </div>
             <div className='form2__dropdown'>
                 {/* add drop-down menu */}
                 <select defaultValue={name} onChange={handleChange} className='form2__select'>

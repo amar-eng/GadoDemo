@@ -11,8 +11,10 @@
    letter-spacing: -2px;
    text-transform: capitalize;
    font-size: 2.5rem;
-
-
+   @include tablet{
+       font-size: 2.3rem;
+       padding: 1rem;
+   }
   
 
 }
@@ -29,15 +31,15 @@
     
 
     @include tablet{
-        padding: 2rem 10rem;
-        font-size: 1.75rem;
+        padding: 2rem 9rem;
+        font-size: 1.5rem;
     }
 
     
 
     &__icon{
-        width: 50px;
-        height: 50px;
+        width: 44px;
+        height: 44px;
     }
     &__sub-heading{
         @include light; 
@@ -50,8 +52,9 @@
         color: $green; 
         padding: 0.5rem 0;
         @include tablet{
-            // padding: 2rem 13rem;
-            font-size: 1.4rem;
+            line-height: 2.5rem;
+            font-size: 1.2rem;
+            
         }
     }
 }

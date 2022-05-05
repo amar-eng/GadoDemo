@@ -14,6 +14,10 @@
     color: $green;
     @include normal;
 
+    @include tablet{
+      font-size: 1.85rem;
+    }
+
   }
 
   .our-products-blocks {
@@ -23,6 +27,10 @@
     flex-wrap: wrap;
     flex-direction: column;
     text-align: center;
+    @include tablet{
+      // background-color: red;
+      // background-color: rgb(237, 232, 226);
+    }
 
     &__block {
       display: flex;
@@ -31,6 +39,10 @@
       flex-direction: column;
       width: 100%;
       margin-top: 50px;
+      @include tablet{
+        // background-color: rgb(237, 232, 226);
+        padding: 1rem 0;
+      }
     }
       &__sub-heading {
         font-size: 1.2rem;
@@ -39,6 +51,9 @@
        @include normal; 
         margin-top: 10px;
         text-transform: uppercase;
+        @include tablet{
+          font-size: 1.5rem;
+        }
       }
 
       &__paragraph {
@@ -49,11 +64,20 @@
         opacity: 0.6;
         width: 90%;
         text-align: center;
+        @include  tablet{
+          font-size: 1.4rem;
+          line-height: 2rem;
+          width: 75%;
+        }
       }
 
       &__icon{
         width: 40px;
         height: 40px;
+        @include tablet{
+          width: 50px;
+          height: 50px;
+        }
       }
     
   }

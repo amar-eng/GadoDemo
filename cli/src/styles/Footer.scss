@@ -38,6 +38,9 @@
   justify-content: space-between;
   flex-direction: row;
   margin: 0  -1rem ;
+  @include tablet{
+    margin: 0 9rem;
+  }
 }
 &__phone{
   display: flex;

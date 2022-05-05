@@ -18,6 +18,9 @@
     font-size: 22px;
     color: $green;
     padding: 0.5rem;
+    @include tablet{
+      font-size: 26px;
+    }
     
   }
 
@@ -32,6 +35,9 @@
     @include light;
     font-size: 15px;
     text-transform: capitalize;
+    @include tablet{
+      font-size: 18px;
+    }
   }
 
   &__button{

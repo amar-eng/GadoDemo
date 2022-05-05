@@ -20,6 +20,10 @@
        line-height: 2rem;
         font-size: 1.2rem;
         color: $green;
+        @include tablet{
+            line-height: 3rem;
+            padding: 2rem 3.2rem;
+        }
     }
     &__span{
         color: $golden;
