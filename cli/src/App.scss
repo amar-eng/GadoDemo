@@ -32,3 +32,18 @@ body {
   background-color: #f3f5f6;
   //   background-color: blue;
 }
+
+::-webkit-scrollbar {
+  width: 9px;
+}
+  ::-webkit-scrollbar-track {
+    background: $gold; 
+}
+  ::-webkit-scrollbar-thumb {
+    background: $green; 
+    border-radius:5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  
+  background: $golden; 
+} 

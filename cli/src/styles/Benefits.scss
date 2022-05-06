@@ -16,6 +16,12 @@
        padding: 1rem;
    }
   
+   &__content{
+    @include desktop{
+        display: flex;
+        flex-direction: row;
+    }
+   }
 
 }
 
@@ -34,7 +40,11 @@
         padding: 2rem 9rem;
         font-size: 1.5rem;
     }
-
+    @include desktop{
+        padding: 1.5rem;
+        font-size: 1rem;
+    }
+    
     
 
     &__icon{
@@ -55,6 +65,11 @@
             line-height: 2.5rem;
             font-size: 1.2rem;
             
+        }
+        @include desktop{
+            line-height: 1.5rem;
+            font-size: 1rem;
+            padding: 0 2rem;
         }
     }
 }

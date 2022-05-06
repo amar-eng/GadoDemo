@@ -8,6 +8,9 @@
   height: 70vh;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../assets/pics/hero4.jpg") no-repeat center / cover;
+    @include desktop{
+      height: 100vh;
+    }
 
   .container {
     opacity: 1;
@@ -22,6 +25,10 @@
     @include tablet{
       height: 80%;
     }
+    @include desktop{
+      padding: 0; 
+      
+    }
     
 
     .info {
@@ -29,6 +36,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      
       
      
       &__header {
@@ -116,108 +124,3 @@
 
 
 
-// @media (min-width: $tablet){
-
-  
-//   .info__header {
-//       font-size: 44px !important;
-//      padding-bottom: 5px;
-//       max-width: 80%;
-//       width: 100%;
-//       font-weight: 400;
-//       color: #ceccbf;
-//       color: white;
-//       letter-spacing: 0px;
-//       text-align: center;
-//     }
-  
-
-//   .info__buttons{
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     flex-direction: row !important; 
-//     // background-color: red;
-//   }
-// }
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Media
-@include desktop {
-  .hero {
-    overflow-x: hidden;
-    height: 90vh;
-    // background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-    //   url("../assets/pics/hero4.jpg") no-repeat center center/ cover;
-    .container {
-      width: 100%;
-      max-width: 100%;
-      display: flex;
-      align-items: flex-start;
-      justify-content: center;
-      .info {
-        text-align: center;
-        color: $silver;
-        margin-top: 1rem;
-        // color: $navy;
-
-        &__header {
-          font-size: 50px;
-          margin-right: 0;
-          margin-bottom: 18rem;
-          max-width: 100%;
-          @include normal; 
-          
-          width: 100%;
-          margin-top: 0px;
-          line-height: 70px;
-          color: white;
-        }
-        &__text {
-          color: white;
-          font-size: 30px;
-          font-weight: 600px;
-          margin-bottom: 70px;
-          max-width: 100%;
-          line-height: 25px;
-        }
-        &__btn {
-          background-color: transparent;
-          color: white;
-          // border-radius: 5px;
-          display: inline-flex;
-          align-items: center;
-          justify-content: center;
-          padding: 0.5rem 1.5rem;
-          font-size: 12px;
-          font-weight: 400;
-          border: 2px solid $gold;
-          width: 170px;
-          height: 43px;
-          text-transform: uppercase;
-          &:hover {
-            background-color: $gold;
-            color: $navy;
-          }
-        }
-        &__btn:nth-last-child(2) {
-          margin-right: 30px;
-        }
-        &__buttons{
-          margin-top: 0rem;
-        }
-      }
-    }
-  }
-}

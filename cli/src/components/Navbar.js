@@ -15,6 +15,7 @@ const Navbar = () => {
     { label: "Our Story", path: "/AboutUs" },
     { label: "Contact Us", path: "/Contact" },
     { label: "Login", path: "/login" },
+    
   ];
 
   const openMenu = () => {

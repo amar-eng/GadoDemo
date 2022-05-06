@@ -31,6 +31,7 @@ const Works = () => {
   return (
       <>
     <div className='works'> How It Works</div>
+    <div className="works__context">
     {
         blocks.map((b, index) => {
             return (
@@ -59,7 +60,7 @@ const Works = () => {
             )
         }
         )}
-
+    </div>
     </>
   )
 }
