@@ -6,11 +6,21 @@ const Footer = () => {
     <div className='footer'>
         <h1 className='footer__header'>e-<span className='footer__span'>GAD</span></h1>
         <div className='footer__socials'>
-            <img src={twitter} alt='twitter' className='footer__icon'/>
-            <img src={instagram} alt='instagram' className='footer__icon'/>
-            <img src={link} alt='instagram' className='footer__icon'/>
-            <img src={facebook} alt='facebook' className='footer__icon'/>
-            <img src={tiktok} alt='tiktok' className='footer__tiktok'/>
+            <a href="https://twitter.com/e__GAD" target="_blank" rel="noreferrer">
+                <img src={twitter} alt='twitter' className='footer__icon'/>
+            </a>
+            <a href="https://www.instagram.com/egad.marketplace/" target="_blank" rel="noreferrer">
+                <img src={instagram} alt='twitter' className='footer__icon'/>
+            </a>
+            <a href="https://www.linkedin.com/company/e-gad" target="_blank" rel="noreferrer">
+                <img src={link} alt='twitter' className='footer__icon'/>
+            </a>
+            <a href="https://www.facebook.com/E-GAD-101017069284174" target="_blank" rel="noreferrer">
+                <img src={facebook} alt='twitter' className='footer__icon'/>
+            </a>
+            <a href="https://www.tiktok.com/@_egad" target="_blank" rel="noreferrer">
+                <img src={tiktok} alt='twitter' className='footer__tiktok'/>
+            </a>
         </div>
         <div className='footer__contact'>
             <div className='footer__phone'>
