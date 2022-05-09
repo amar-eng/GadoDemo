@@ -33,7 +33,7 @@ const Navbar = () => {
   const NavbarLogo = ({ logo }) => (
     <Link to="/" onClick={closeMenu}>
    
-      <h1 className="nav-logo"><span className="Logo__span">GAD</span>o</h1>
+      <h1 className="nav-logo"><span className="Logo__span">e-</span>GAD</h1>
     </Link>
   );
 

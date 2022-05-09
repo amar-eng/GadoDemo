@@ -32,13 +32,14 @@
     padding: 1rem;
   }
 &__header{
-  @include cinzel-light; 
+  @include light; 
   padding: 3rem 0 0rem 0 ;
   color: $green;
+  // font-size: 15px;
 }
 &__span{
   color: $golden;
-  @include cinzel-light;
+  @include light;
 }
 
 &__contact{
@@ -79,6 +80,7 @@
   height: 40px;
 }
 &__button{
+  cursor: pointer;
   background-color: $golden;
   color: $green;
   border-radius: 5px;

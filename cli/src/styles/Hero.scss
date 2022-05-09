@@ -113,10 +113,14 @@
         }
       }
       &__logo{
-        @include cinzel-light;
+        @include light;
         letter-spacing: -2px;
         color: $gold;
-        font-size: 40px;
+        font-size: 45px;
+      }
+      &__logoo{
+        color: $golden;
+        @include light;
       }
     }
   }

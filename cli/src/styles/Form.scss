@@ -92,25 +92,25 @@
     }
 
     &__button{
+        cursor: pointer;
         background-color: $green;
-  color: $golden;
-  border-radius: 5px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.7rem 1rem;
-  font-size: 20px;
-@include light;
-  text-align: center;
-  border: 2px solid $green;
-  transition: all ease-in-out 0.3s;
-  width: 170px;
-  height: 34px;
-  margin: 1.5rem 1.5rem;
-  &:hover {
-    background-color: $gold;
-    color: $navy;
-  }
-    }
-    
+        color: $golden;
+        border-radius: 5px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.7rem 1rem;
+        font-size: 20px;
+        @include light;
+        text-align: center;
+        border: 2px solid $green;
+        transition: all ease-in-out 0.3s;
+        width: 170px;
+        height: 34px;
+        margin: 1.5rem 1.5rem;
+        &:hover {
+            background-color: $gold;
+            color: $navy;
+        }
+    } 
 }

@@ -4,7 +4,7 @@ import '../styles/Footer.scss'
 const Footer = () => {
   return (
     <div className='footer'>
-        <h1 className='footer__header'>GAD<span className='footer__span'>o</span></h1>
+        <h1 className='footer__header'>e-<span className='footer__span'>GAD</span></h1>
         <div className='footer__socials'>
             <img src={twitter} alt='twitter' className='footer__icon'/>
             <img src={instagram} alt='instagram' className='footer__icon'/>
@@ -19,7 +19,7 @@ const Footer = () => {
             </div>
             <div className='footer__phone'>
                 <img src={message} alt='email' className='footer__icon footer__icons'/>
-                <p className='footer__text'>support@gado.com</p>
+                <p className='footer__text'>support@egad.com</p>
             </div>
             
            

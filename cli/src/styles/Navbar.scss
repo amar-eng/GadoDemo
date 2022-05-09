@@ -33,7 +33,7 @@
     line-height: 40px;
     letter-spacing: -0.05em;
     margin-left: 40px;
-    @include cinzel-light;
+    @include light;
   }
 
   .navigations {
@@ -220,6 +220,8 @@
 .Logo__span{
   color: #ceccbf;
   color: $gold;
+  text-transform: lowercase;
+  @include light; 
   
   
 }

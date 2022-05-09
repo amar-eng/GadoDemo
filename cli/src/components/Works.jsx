@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import '../styles/Works.scss'
 import { checked } from "../utils/Lists";
 const Works = () => {
@@ -9,6 +10,7 @@ const Works = () => {
           one: 'Contact a supplier',
           two: 'List your product',
           three: 'Sell and Get Paid',
+          link: '/sell',
     
         },
         {
@@ -17,6 +19,7 @@ const Works = () => {
           one: 'List your Products', 
           two: 'Contact a Vendor',
           three: 'Sell and Get Paid',
+          link: '/supply',
           
         },
         {
@@ -25,6 +28,7 @@ const Works = () => {
             one: 'Search for Products',
             two: 'Compare Prices',
             three: 'Buy & Get Your Product',
+            link: '/shop',
           
         },
       ];
@@ -54,7 +58,9 @@ const Works = () => {
                     </div>
                     
                    </div>
-                   <button className='works__button'>Get Started</button>
+                   <Link to= {`${b.link}`} >
+                      <button className='works__button'>Get Started</button>
+                  </Link>
                    </div>
                 </div>
             )

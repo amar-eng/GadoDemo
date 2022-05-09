@@ -1,26 +1,33 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+import { Link } from "react-router-dom";
 import '../styles/Bottoms.scss'
 import { cart, vending, supplier } from "../utils/Lists";
 const Bottom = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
     const blocks = [
         {
           heading: "Shop Now ",
           icon: cart,
           text: 'Explore our wide range of products',
-          btn:'Shop Now'
+          btn:'Shop Now', 
+          link: '/shop',
         },
         {
             heading: "I'm a Drop-Shipper",
             icon: vending,
             text: 'Sell your own products or hit up one of our suppliers',
-            btn:'Get Started'
+            btn:'Get Started', 
+            link: '/sell',
           },
           {
             heading: "Become a Supplier ",
             icon: supplier,
             text: 'List your products and get paid',
-            btn:'Get Started'
+            btn:'Get Started', 
+            link: '/supply',
           },
       ];
   return (
@@ -37,7 +44,10 @@ const Bottom = () => {
                                 <h2 className='bottom__heading'>{b.heading}</h2>
                                     <p className='bottom__text'>{b.text}</p>
                                 </div>
-                                <button className='bottom__button'>{b.btn}</button>
+                               
+                                <Link to= {`${b.link}`} >
+                                    <button className='bottom__button'>{b.btn}</button>
+                                 </Link> 
                             </div>
                         </div>
                     )

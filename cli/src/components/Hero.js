@@ -14,21 +14,19 @@ const Hero = () => {
       <div className="container">
         <div className="info">
             <h1 className="info__header fade-in">
-              WE ARE <span className="info__logo">GADo</span> 
+              <span className="info__logo">e- <span className="info__logoo">GAD</span></span> 
               <br />
             </h1>
-            <h1 className="info__header fade-in header-mobile">
-            E-COMMERCE <span className="info__span">SIMPLIFIED</span>
-            </h1>
+            
             <h2 className="info__text fade-in">
-            An African Based Venture 
+            An African Based Marketplace
 
               <br />
               {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. */}
             </h2>
           </div>
           <div className="info__buttons">
-          <Link to="/" className="info__btn slide-up1">
+          <Link to="/shop" className="info__btn slide-up1">
             Shop Now
           </Link>
           <Link to="/Sell" className="info__btn slide-up2">
