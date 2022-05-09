@@ -1,10 +1,14 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import { twitter,instagram,facebook,whatsapp,telephone, tiktok, link, message } from "../utils/Lists";
 import '../styles/Footer.scss'
 const Footer = () => {
   return (
     <div className='footer'>
-        <h1 className='footer__header'>e-<span className='footer__span'>GAD</span></h1>
+        <Link to="/" >
+            <h1 className='footer__header'>e-<span className='footer__span'>GAD</span></h1>
+        </Link>
+        
         <div className='footer__socials'>
             <a href="https://twitter.com/e__GAD" target="_blank" rel="noreferrer">
                 <img src={twitter} alt='twitter' className='footer__icon'/>
