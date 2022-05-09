@@ -10,7 +10,7 @@ const MerOurProducts = () => {
           // paragraph:
           //   "Help your friends smell better and boost confidence. Refer 5 friends to subscribe and enjoy an instant FREE upgrade to our Elite level!",
           paragraph:
-            "At Gado, we're in the trust business. We provide a platform in which all payments are clear, no hidden fees and you get the item you purchased or your money back. 100% GUARANTEED! ",
+            "At e-Gad, we're in the trust business. We provide a platform in which all payments are clear, no hidden fees and you get the item you purchased or your money back. 100% GUARANTEED! ",
         },
         {
           heading: "Open Communication",

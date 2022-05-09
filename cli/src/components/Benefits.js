@@ -8,7 +8,7 @@ const Benefits  = () => {
           heading: "Verified Products",
           icon: verified,
           paragraph:
-            "At GADo, were in the trust business. That means you get the item you purchased or your money back. 100% GUARANTEED! ",
+            "At e-GAD, were in the trust business. That means you get the item you purchased or your money back. 100% GUARANTEED! ",
         },
         {
           heading: "Express Shipping",

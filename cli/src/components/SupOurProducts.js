@@ -10,13 +10,13 @@ const SupOurProducts = () => {
           // paragraph:
           //   "Help your friends smell better and boost confidence. Refer 5 friends to subscribe and enjoy an instant FREE upgrade to our Elite level!",
           paragraph:
-            "At Gado, were in the trust business. We provide a platform in which all payments are clear, no hidden fees. You get your payment haggle or delay free. 100% GUARANTEED! ",
+            "At e-GAD, were in the trust business. We provide a platform in which all payments are clear, no hidden fees. You get your payment haggle or delay free. 100% GUARANTEED! ",
         },
         {
           heading: "Connecting with Drop-Shippers",
           icon: connect,
           paragraph:
-            "It's paramount that you and the merchants are on the same page. We connect you to them by providing a transparent platform where your exact requirements are communicated!",
+            "It's paramount that you and the drop-shippers are on the same page. We connect you to them by providing a transparent platform where your exact requirements are communicated!",
         },
         {
           heading: "Simple inventory tracking ",

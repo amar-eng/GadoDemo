@@ -19,7 +19,7 @@ const Footer = () => {
             </div>
             <div className='footer__phone'>
                 <img src={message} alt='email' className='footer__icon footer__icons'/>
-                <p className='footer__text'>support@egad.com</p>
+                <p className='footer__text'>support@eGAD.com</p>
             </div>
             
            

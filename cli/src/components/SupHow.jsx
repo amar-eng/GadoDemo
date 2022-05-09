@@ -13,7 +13,7 @@ const SupHow = () => {
           heading: "Contact with Drop Shipper",
           number: "02",
           paragraph:
-            "Once you've found the right product, it will get listed on GADo and ensure you get the best possible price. ",
+            "Once you've found the right product, it will get listed on e-GAD and ensure you get the best possible price. ",
         },
         {
           heading: "Sell and get paid",

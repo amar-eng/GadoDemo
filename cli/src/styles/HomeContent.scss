@@ -36,9 +36,9 @@
         text-transform: uppercase;
     }
     &__logo{
-        @include cinzel-light;
+        @include light;
         font-size: 22px;
-        text-transform: capitalize;
+        text-transform: lowercase;
         color: $golden;
         @include tablet{
             font-size: 25px;
@@ -48,7 +48,7 @@
         }
     }
     &__o{
-        @include cinzel-light;
+        @include light;
         font-size: 19px;
         color: $golden;
         @include tablet{

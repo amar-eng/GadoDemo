@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbar from '../components/Navbar2'
+import Navbar from '../components/Navbar'
 import '../styles/Contact.scss'
 import Form from '../components/Form'
-import { twitter,instagram,facebook,whatsapp,telephone, tiktok, link, message } from "../utils/Lists";
+import {telephone, message } from "../utils/Lists";
 const Contact = () => {
   return (
     <>
@@ -21,7 +21,7 @@ const Contact = () => {
             </div>
             <div className='contacts__phone'>
                 <img src={message} alt='email' className='contacts__icon contacts__icons'/>
-                <p className='contacts__text'>support@gado.com</p>
+                <p className='contacts__text'>support@eGAD.com</p>
             </div>
           </div>
         </div>
