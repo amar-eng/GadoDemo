@@ -4,7 +4,7 @@
 @import "./Animations";
 
 .bottom{
-    // background-color: $offwhite;
+
   &__block{
     display: flex;
     align-items: center;
@@ -12,6 +12,12 @@
     flex-direction: column;
     text-align: center;
     padding: 2rem;
+   
+  }
+  &__container{
+    @include desktop{
+      display: flex;
+    }
   }
   &__heading{
     @include normal; 
@@ -21,12 +27,19 @@
     @include tablet{
       font-size: 26px;
     }
+    @include desktop{
+      font-size: 20px;
+    }
     
   }
 
   &__icon{
       width: 45px;
       height: 45px;
+      @include desktop{
+        width: 35px;
+        height: 35px;
+      }
   }
 
   &__text{
@@ -37,6 +50,9 @@
     text-transform: capitalize;
     @include tablet{
       font-size: 18px;
+    }
+    @include desktop{
+      font-size: 16px;
     }
   }
 

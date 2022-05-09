@@ -42,7 +42,8 @@ import tiktok from "../assets/icons/tiktokkk.svg";
 import link from "../assets/icons/linkedinn.svg";
 import message from "../assets/icons/messagee.svg";
 import telephone from "../assets/icons/telephone.svg";
-
+import arrow1 from "../assets/icons/arrow1.svg";
+import arrow2 from "../assets/icons/arrow2.svg";
 
  
 // Pictures
@@ -69,6 +70,8 @@ import work from '../assets/pics/work.jpg';
 import working from '../assets/pics/working.jpg';
 import shop from '../assets/pics/shopp.jpg';
 import office from '../assets/pics/officee.jpg';
+import somali from '../assets/pics/somali.jpg';
+import team from '../assets/pics/tteam.jpg';
 
 
 export {
@@ -135,5 +138,9 @@ export {
   shop, 
   office,
   message, 
-  telephone
+  telephone, 
+  somali, 
+  arrow1, 
+  arrow2, 
+  team
 };

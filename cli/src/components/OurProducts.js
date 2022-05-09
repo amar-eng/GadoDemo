@@ -32,7 +32,7 @@ const OurProducts = () => {
 
       <div className="our-products-blocks">
         {blocks.map((block, index) => (
-          <div key={index} className="block">
+        <div key={index} className="block">
             <img className="icon" src={block.icon} alt="" />
             <h3 className="sub-heading">{block.heading}</h3>
             <p className="paragraph">{block.paragraph}</p>

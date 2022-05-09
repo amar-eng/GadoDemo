@@ -23,6 +23,12 @@
         padding: 0.5rem 10rem;
         font-size: 20px;
     }
+    // @include ultra{
+    //     font-size: 90px;
+    //     @include bold; 
+    //     line-height: 6rem;
+    //     text-align: left;
+    // }
         
     }
     &__span{
@@ -37,6 +43,9 @@
         @include tablet{
             font-size: 25px;
         }
+        @include desktop{
+            font-size: 21px;
+        }
     }
     &__o{
         @include cinzel-light;
@@ -44,6 +53,9 @@
         color: $golden;
         @include tablet{
             font-size: 22px;
+        }
+        @include desktop{
+            font-size: 20px;
         }
     }
 }

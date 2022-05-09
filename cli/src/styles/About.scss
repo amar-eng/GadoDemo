@@ -1,0 +1,24 @@
+@import "../partials/fonts";
+@import "../partials/mixins";
+@import "../partials/variables";
+@import "./Animations";
+
+.about-container{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin: 2rem 1rem;
+}
+.about-img{
+    display: none;
+    @include desktop{
+        display: block;
+        width: 45%;
+        height: 60vh;
+        object-fit: contain;
+    }
+    @include ultra{
+        width: 40%;
+    }
+    
+}

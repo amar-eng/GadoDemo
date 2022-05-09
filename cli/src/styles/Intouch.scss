@@ -39,6 +39,10 @@
             line-height: 2rem;
             // background-color: red;
         }
+        @include desktop{
+            padding: 0 10rem 1.1rem 10rem;
+            font-size:1.2rem;
+        }
         
     }
     &__btn{
@@ -71,4 +75,7 @@
     align-items: center;
     justify-content: center;
     margin: 2rem 0 ;
+    @include desktop{
+        margin: 2rem 10rem;
+    }
 }

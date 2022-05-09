@@ -32,9 +32,10 @@ const MerOurProducts = () => {
         <div className="our-products-blocks">
         {blocks.map((block, index) => (
             <div key={index} className="our-products-blocks__block">
-             <img className="our-products-blocks__icon" src={block.icon} alt="" />
-              <h3 className="our-products-blocks__sub-heading">{block.heading}</h3>
-              
+              <div className='our-products-blocks__items'>
+                <img className="our-products-blocks__icon" src={block.icon} alt="" />
+                <h3 className="our-products-blocks__sub-heading">{block.heading}</h3>
+              </div>
               <p className="our-products-blocks__paragraph">{block.paragraph}</p>
             </div>
         ))}

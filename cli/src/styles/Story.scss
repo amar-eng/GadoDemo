@@ -22,11 +22,31 @@
         color: $green;
         @include tablet{
             line-height: 3rem;
-            padding: 2rem 3.2rem;
+            padding: 1.5rem 2.5rem;
+            font-size: 1.75rem;
+            @include normal;
         }
+        @include desktop{
+            line-height: 2rem;
+            padding: 1.5rem 4.5rem 0 4.5rem;
+            font-size: 1rem;
+            // text-align: left;
+            &:nth-child(1){
+                margin-top: 4rem;
+            }
+        }
+        @include ultra{
+            font-size: 1rem;
+            padding: 1.5rem 5.5rem;
+            &:nth-child(1){
+                margin-top: 2.5rem;
+            }
+        }
+        
     }
     &__span{
         color: $golden;
         text-transform: uppercase;
+       
     }
 }

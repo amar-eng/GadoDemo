@@ -28,6 +28,10 @@
    }
     @include desktop{
          font-size: 2.5rem;
+        //  color: $green;
+    }
+    @include ultra{
+        color: red;
     }
 }
 &__span{ 

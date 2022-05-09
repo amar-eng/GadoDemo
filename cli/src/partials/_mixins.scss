@@ -9,8 +9,18 @@
     @content;
   }
 }
+@mixin ultra {
+  @media (min-width: $ultra) {
+    @content;
+  }
+}
 @mixin tablet-pro {
   @media (min-width: $tablet-pro) {
     @content;
   }
+}
+
+
+@mixin sliderdesktop{
+  transform: translateX( 0 * -100%);
 }

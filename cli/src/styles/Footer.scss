@@ -8,6 +8,15 @@
   border-top: 0.2px solid $green;
   margin: 2rem ;
   text-align: center;
+  @include tablet{
+    margin: 2rem 12rem;
+  }
+  @include desktop{
+    margin: 2rem 16rem;
+  }
+  @include ultra{
+    margin: 2rem 20rem;
+  }
 
   &__socials{
     display: flex;
@@ -41,6 +50,9 @@
   @include tablet{
     margin: 0 9rem;
   }
+  @include desktop{
+    justify-content: center;
+  }
 }
 &__phone{
   display: flex;
@@ -58,6 +70,9 @@
   padding: 0;
   width: 30px;
   height: 30px;
+  @include desktop{
+    margin: 0 0 0 3rem;
+  }
 }
 &__tiktok{
   width: 40px;

@@ -18,7 +18,40 @@
             align-items: center;
  
         }
+        @include desktop{
+            flex-direction: row;
+            // background-color: $green;    
+            justify-content: space-between;
+        }
         
+    }
+    &__arrow{
+        display: none;
+        @include desktop{
+            display: block;
+            width: 120px;
+            height: 120px;
+            &:nth-last-child(2){
+                display: none;
+            }
+            &:nth-child(5){
+                display: none;
+            }
+        }
+    }
+    &__arrow2{
+        display: none;
+        @include desktop{
+            display: block;
+            width: 120px;
+            height: 120px;
+            &:nth-child(3){
+                display: none;
+            }
+            &:nth-last-child(1){
+                display: none;
+            }
+        }
     }
    
     &__block{
@@ -31,6 +64,12 @@
         @include tablet{
             padding: 0 5rem; 
         }
+        @include desktop{
+            // background-color: brown;
+            padding: 0;
+            margin: 1rem ;
+        }
+
 
         &-number{
             @include light;
@@ -44,6 +83,10 @@
                 padding: 1rem; 
                 font-size:1.5rem; 
             }
+            @include desktop{
+                padding: 1rem; 
+                font-size:1rem; 
+            }
         }
         &-content{
             &-heading{
@@ -55,6 +98,11 @@
                 text-transform: uppercase;
                 @include tablet{
                     font-size: 1.5rem;
+                }
+                @include desktop{
+                    // background-color: yellow;
+                    width: 100%;
+                    font-size: 1.1rem;
                 }
             }
             &-paragraph{
@@ -68,6 +116,10 @@
                 @include tablet{
                     font-size: 1.3rem;
                     line-height: 2rem;
+                }
+                @include desktop{
+                    // background-color: green;
+                   font-size: 1rem;
                 }
             }
         }

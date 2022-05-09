@@ -13,7 +13,7 @@ const SupOurProducts = () => {
             "At Gado, were in the trust business. We provide a platform in which all payments are clear, no hidden fees. You get your payment haggle or delay free. 100% GUARANTEED! ",
         },
         {
-          heading: "Connecting to Vendors",
+          heading: "Connecting with Drop-Shippers",
           icon: connect,
           paragraph:
             "It's paramount that you and the merchants are on the same page. We connect you to them by providing a transparent platform where your exact requirements are communicated!",
@@ -31,12 +31,13 @@ const SupOurProducts = () => {
 
     <div className="our-products-blocks">
     {blocks.map((block, index) => (
-        <div key={index} className="our-products-blocks__block">
-         <img className="our-products-blocks__icon" src={block.icon} alt="" />
-          <h3 className="our-products-blocks__sub-heading">{block.heading}</h3>
-          
-          <p className="our-products-blocks__paragraph">{block.paragraph}</p>
-        </div>
+         <div key={index} className="our-products-blocks__block">
+         <div className='our-products-blocks__items'>
+           <img className="our-products-blocks__icon" src={block.icon} alt="" />
+           <h3 className="our-products-blocks__sub-heading">{block.heading}</h3>
+         </div>
+         <p className="our-products-blocks__paragraph">{block.paragraph}</p>
+       </div>
     ))}
     </div>
 </div>

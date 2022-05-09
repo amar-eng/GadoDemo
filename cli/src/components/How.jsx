@@ -1,4 +1,5 @@
 import React from 'react'
+import { arrow1, arrow2} from "../utils/Lists";
 import '../styles/How.scss'
 const How = () => {
     const blocks = [
@@ -32,6 +33,7 @@ const How = () => {
         {
             blocks.map((block, index) => {
                 return (
+                    <>
                     <div className='how__block' key={index}>
                         <div className='how__block-number'>
                             {block.number}
@@ -45,6 +47,9 @@ const How = () => {
                             </p>
                         </div>
                     </div>
+                    <img src={arrow1} alt="arrow" className='how__arrow'/>
+                    <img src={arrow2} alt="arrow" className='how__arrow2'/>
+                    </>
                 )
             }
             
@@ -52,6 +57,7 @@ const How = () => {
             )
 
         }
+        
         </div>
     </div>
   )

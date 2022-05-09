@@ -13,6 +13,7 @@
     text-transform: uppercase;
     font-size: 2.5rem;
     margin: 1.5rem 0;
+    transition: all ease-in-out 0.3s;
     
  }
  &__content{
@@ -29,6 +30,7 @@
     @include light;  
     font-size: 1.25rem;
     margin: 1rem 0;
+    
  }
 }
 @include desktop{
@@ -39,8 +41,14 @@
          width: 100%;
          background-position: center;
          background-size: cover;
-         color: red;
+         
          background-repeat: no-repeat;
          // background-size: cover;
+      }
+
+}
+@include ultra{
+      .heroo{
+         height: 100vh;
       }
 }

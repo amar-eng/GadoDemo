@@ -13,14 +13,14 @@ const Hero = () => {
       <Navbar/>
       <div className="container">
         <div className="info">
-            <h1 className="info__header slide-up">
+            <h1 className="info__header fade-in">
               WE ARE <span className="info__logo">GADo</span> 
               <br />
             </h1>
-            <h1 className="info__header slide-up header-mobile">
+            <h1 className="info__header fade-in header-mobile">
             E-COMMERCE <span className="info__span">SIMPLIFIED</span>
             </h1>
-            <h2 className="info__text slide-up">
+            <h2 className="info__text fade-in">
             An African Based Venture 
 
               <br />
@@ -28,13 +28,13 @@ const Hero = () => {
             </h2>
           </div>
           <div className="info__buttons">
-          <Link to="/" className="info__btn slide-up">
+          <Link to="/" className="info__btn slide-up1">
             Shop Now
           </Link>
-          <Link to="/Sell" className="info__btn slide-up">
+          <Link to="/Sell" className="info__btn slide-up2">
             I'm a Drop-Shipper
           </Link>
-          <Link to="/Supply" className="info__btn slide-up">
+          <Link to="/Supply" className="info__btn slide-up3">
             Become a supplier
           </Link>
         </div>

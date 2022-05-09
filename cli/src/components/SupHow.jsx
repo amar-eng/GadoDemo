@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/How.scss'
+import { arrow1, arrow2} from "../utils/Lists";
 const SupHow = () => {
     const blocks = [
         {
@@ -9,7 +10,7 @@ const SupHow = () => {
             "Bring in your OWN product or get in touch with OUR suppliers to find the right product you want to sell. ",
         },
         {
-          heading: "Communicate with Vendor",
+          heading: "Contact with Drop Shipper",
           number: "02",
           paragraph:
             "Once you've found the right product, it will get listed on GADo and ensure you get the best possible price. ",
@@ -27,9 +28,11 @@ const SupHow = () => {
         <h1 className='how__title'>
             How it works
         </h1>
+        <div className="how__container">
         {
             blocks.map((block, index) => {
                 return (
+                    <>
                     <div className='how__block' key={index}>
                         <div className='how__block-number'>
                             {block.number}
@@ -43,12 +46,18 @@ const SupHow = () => {
                             </p>
                         </div>
                     </div>
+                    <img src={arrow1} alt="arrow" className='how__arrow'/>
+                    <img src={arrow2} alt="arrow" className='how__arrow2'/>
+                    </>
                 )
             }
+            
 
             )
 
         }
+        
+        </div>
     </div>
   )
 }

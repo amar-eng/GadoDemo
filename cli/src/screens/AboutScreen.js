@@ -1,20 +1,19 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 import Hero2 from "../components/Hero2";
 import Bottom from '../components/Bottom';
 import Footer from '../components/Footer';
-import Intouch from '../components/Intouch';
-import Benefits from '../components/Benefits';
 import Story from "../components/Story";
-import { about, office  } from "../utils/Lists";
+import {  office, team  } from "../utils/Lists";
+import '../styles/About.scss';
 const AboutScreen = () => {
   return <div>
  
     {/* <Hero2 title ='About Us' text = "We are an African based Venture " hero={office}/> */}
     <Hero2 title ='Our Story'  hero={office}/>
-    <Story/>
-    <Benefits/>
-    <Intouch/>
+    <div className="about-container">
+      <img src={team} alt="about" className="about-img"/>
+      <Story/>
+    </div>
     <Bottom/>
     <Footer/>
   </div>;

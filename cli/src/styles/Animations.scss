@@ -57,7 +57,7 @@
 }
 
 .fade-in {
-  animation: 0.3s fade-in ease-in-out both;
+  animation: 3.9s fade-in ease-in-out both;
 }
 
 .fade-out {
@@ -73,7 +73,16 @@
 }
 
 .slide-up {
-  animation: 0.4s slide-up ease-in-out both;
+  animation: 0.5s slide-up ease-in-out both;
+}
+.slide-up1 {
+  animation: 1.5s slide-up ease-in-out both;
+}
+.slide-up2 {
+  animation: 2.0s slide-up ease-in-out both;
+}
+.slide-up3 {
+  animation: 2.5s slide-up ease-in-out both;
 }
 
 .slide-down {

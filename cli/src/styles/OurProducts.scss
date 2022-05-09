@@ -17,8 +17,12 @@
     @include tablet{
       font-size: 1.85rem;
     }
+    @include desktop{
+      text-align: left;
+    }
 
   }
+
 
   .our-products-blocks {
     display: flex;
@@ -31,6 +35,15 @@
       // background-color: red;
       // background-color: rgb(237, 232, 226);
     }
+   
+    &__items{
+      @include desktop{
+        display: flex;
+      }
+      
+      
+    }
+   
 
     &__block {
       display: flex;
@@ -43,6 +56,17 @@
         // background-color: rgb(237, 232, 226);
         padding: 1rem 0;
       }
+      @include desktop{
+        align-items: flex-start;
+        margin-top: 12px;
+        // background-color: red;
+        
+      }
+      @include ultra{
+        margin-top: 0;
+        margin-bottom: 28px;
+      }
+      
     }
       &__sub-heading {
         font-size: 1.2rem;
@@ -53,6 +77,10 @@
         text-transform: uppercase;
         @include tablet{
           font-size: 1.5rem;
+        }
+        @include desktop{
+          margin-left:1rem;
+          font-size: 1.2rem;
         }
       }
 
@@ -69,6 +97,12 @@
           line-height: 2rem;
           width: 75%;
         }
+        @include desktop{
+          // background-color: green;
+          width: 100%;
+          font-size: 1.1rem;
+          text-align: left;
+        }
       }
 
       &__icon{
@@ -78,84 +112,19 @@
           width: 50px;
           height: 50px;
         }
+        @include desktop{
+          width: 35px;
+          height: 35px;
+        }
       }
     
   }
 }
 
-// @media (max-width: $tablet) {
-//   .our-products {
-//     background-color: #f3f5f6;
-//     padding: 20px 0 25px 0;
-//     width: 100%;
-
-//     .main-heading {
-//       // font-size: 18px;
-//     }
-
-//     .our-products-blocks {
-//       flex-direction: column;
-
-//       .block {
-//         width: 100%;
-//         margin-top: 20px;
-//         .icon {
-//           height: 25px;
-//         }
-
-//         .sub-heading {
-//           font-size: 16px;
-//           margin-top: 10px;
-//         }
-
-//         .paragraph {
-//           font-size: 10px;
-//           margin-top: 10px;
-//           text-align: center;
-//           width: 170px;
-//         }
-//       }
-//     }
-//   }
-// }
-
-// @media (min-width: $desktop) {
-//   .our-products {
-//     background-color: #f3f5f6;
-//     padding: 20px 0 25px 0;
-//     width: 100%;
+// .our-products-blocks__block:nth-child(2){
+//   @include desktop{
+//     margin-left: 10rem;
 //     // background-color: red;
-
-//     .main-heading {
-//       font-size: 28px;
-//       margin: 2rem 0;
-//     }
-
-//     .our-products-blocks {
-//       flex-direction: row;
-
-//       .block {
-//         width: 100%;
-//         margin-top: 30px;
-//         .icon {
-//           height: 50px;
-//         }
-
-//         .sub-heading {
-//           font-size: 25px;
-//           margin-top: 10px;
-//           opacity: 0.9;
-//           font-weight: 600;
-//         }
-
-//         .paragraph {
-//           font-size: 18px;
-//           margin-top: 10px;
-//           text-align: center;
-//           width: 80%;
-//           // width: 170px;
-//         }
-//       }
-//     }
 //   }
+  
 // }

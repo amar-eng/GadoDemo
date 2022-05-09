@@ -20,6 +20,10 @@
     @include desktop{
         display: flex;
         flex-direction: row;
+        padding: 0 5rem 0 8rem;
+    }
+    @include ultra{
+        padding: 0 4rem 0 8rem;
     }
    }
 
@@ -44,8 +48,6 @@
         padding: 1.5rem;
         font-size: 1rem;
     }
-    
-    
 
     &__icon{
         width: 44px;
