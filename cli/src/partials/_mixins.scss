@@ -19,6 +19,11 @@
     @content;
   }
 }
+@mixin ipad-air {
+  @media (min-width: $ipad-air) {
+    @content;
+  }
+}
 
 
 @mixin sliderdesktop{

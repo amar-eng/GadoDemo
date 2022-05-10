@@ -4,6 +4,7 @@
 @import "./Animations";
 
 .story{
+  
     &__header{
         @include normal; 
         text-align: center;
@@ -30,6 +31,7 @@
             line-height: 2rem;
             padding: 1.5rem 4.5rem 0 4.5rem;
             font-size: 1rem;
+            
             // text-align: left;
             &:nth-child(1){
                 margin-top: 4rem;
@@ -39,7 +41,7 @@
             font-size: 1rem;
             padding: 1.5rem 5.5rem;
             &:nth-child(1){
-                margin-top: 2.5rem;
+                margin-top: 0.5rem;
             }
         }
         

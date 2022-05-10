@@ -12,11 +12,16 @@
     flex-direction: column;
     text-align: center;
     padding: 2rem;
+    @include tablet-pro{
+      flex: 1 0 30%;
+
+    }
    
   }
   &__container{
-    @include desktop{
+    @include tablet-pro{
       display: flex;
+      flex: row wrap;
     }
   }
   &__heading{
@@ -27,6 +32,9 @@
     @include tablet{
       font-size: 26px;
     }
+    @include tablet-pro{
+      font-size: 21px;
+    }
     @include desktop{
       font-size: 20px;
     }
@@ -36,6 +44,10 @@
   &__icon{
       width: 45px;
       height: 45px;
+      @include tablet-pro{
+        width: 40px;
+        height: 40px;
+      }
       @include desktop{
         width: 35px;
         height: 35px;
@@ -51,8 +63,18 @@
     @include tablet{
       font-size: 18px;
     }
+    @include tablet-pro{
+      font-size: 15px;
+      padding: 1rem 2rem ;
+      
+    }
     @include desktop{
       font-size: 16px;
+      padding: 1rem 4rem ;
+    }
+    @include ultra{
+      font-size: 16px;
+      padding: 1rem 6rem ;
     }
   }
 

@@ -1,5 +1,5 @@
+import React from 'react'
 import { Routes, Route } from "react-router-dom";
-
 import "./App.scss";
 import AboutScreen from "./screens/AboutScreen";
 import Contact from "./screens/Contact";

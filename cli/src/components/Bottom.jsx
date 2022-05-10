@@ -38,7 +38,9 @@ const Bottom = () => {
                 blocks.map((b, index) => {
                     return (
                         <div className='bottom__block' key={index}>
-                            <img src={b.icon} alt='checked' className='bottom__icon'/>
+                            <Link to= {`${b.link}`} >
+                              <img src={b.icon} alt='checked' className='bottom__icon'/>
+                            </Link> 
                             <div className='bottom__content'>
                                 <div className='bottom__info'>
                                 <h2 className='bottom__heading'>{b.heading}</h2>
