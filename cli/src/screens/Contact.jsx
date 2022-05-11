@@ -22,7 +22,7 @@ const Contact = () => {
                 <p className='contact__text'>support@eGAD.com</p>
             </div>
           </div>
-          {/* <ContactForm/> */}
+          <ContactForm/>
       </div>
       
   </>

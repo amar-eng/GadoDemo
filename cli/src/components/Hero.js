@@ -14,7 +14,7 @@ const Hero = () => {
       <div className="container">
         <div className="info">
             <h1 className="info__header fade-in">
-              <span className="info__logo">e- <span className="info__logoo">GAD</span></span> 
+              <span className="info__logo">e-<span className="info__logoo">GAD</span></span> 
               <br />
             </h1>
             

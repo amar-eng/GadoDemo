@@ -31,7 +31,7 @@
         //  color: $green;
     }
     @include ultra{
-        color: red;
+        color: $lightblue;
     }
 }
 &__span{ 

@@ -40,7 +40,9 @@ const Form = () => {
 
             </div>
             <textarea className='form2__textarea' placeholder='How can we help you?'/>
-            <button className='form2__button' onClick={handleSubmit}>Submit</button>
+            <div className='form__buttons'>
+              <button className='form__button' onClick={handleSubmit}>Submit</button>
+            </div> 
         </form>
 
     </div>

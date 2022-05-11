@@ -44,6 +44,7 @@ import message from "../assets/icons/messagee.svg";
 import telephone from "../assets/icons/telephone.svg";
 import arrow1 from "../assets/icons/arrow1.svg";
 import arrow2 from "../assets/icons/arrow2.svg";
+import downn from "../assets/icons/downn.svg";
 
  
 // Pictures
@@ -142,5 +143,6 @@ export {
   somali, 
   arrow1, 
   arrow2, 
-  team
+  team, 
+  downn
 };
