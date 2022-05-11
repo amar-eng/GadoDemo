@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import '../styles/Contact.scss'
-import Form from '../components/Form'
 import {telephone, message } from "../utils/Lists";
 import ContactForm from '../components/ContactForm';
 const Contact = () => {
