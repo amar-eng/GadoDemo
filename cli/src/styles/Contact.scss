@@ -177,6 +177,7 @@
     }
     @include desktop{
         overflow-y: hidden;
+        height: 105vh;
         
     }
     &__header{

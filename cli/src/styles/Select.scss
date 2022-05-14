@@ -20,7 +20,7 @@
 .list-choice-title {
 width: 100%;
 display: block;
-background: #D8D8D8;
+background: $lightblue;
 text-align: center;
 padding: 0.55em 1em;
 box-sizing: border-box;
@@ -36,7 +36,7 @@ border-radius:0.2em 0.2em 0 0;
 }
 .list-choice input[type="radio"] + span {
     color: $green;
-background: #D8D8D8;
+background: $lightblue;
 padding: 0.55em 1em;
 display: block;
 text-align: center;
