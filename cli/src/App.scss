@@ -31,19 +31,24 @@ body {
   // overflow-x: hidden;
   background-color: #f3f5f6;
   //   background-color: blue;
+  
 }
 
 ::-webkit-scrollbar {
-  width: 9px;
+  width: 5px;
+  overflow: auto;
 }
   ::-webkit-scrollbar-track {
     background: $gold; 
+    overflow: auto;
 }
   ::-webkit-scrollbar-thumb {
     background: $green; 
     border-radius:5px;
+    overflow: auto;
 }
 ::-webkit-scrollbar-thumb:hover {
   
   background: $golden; 
+  overflow: auto;
 } 

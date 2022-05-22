@@ -5,7 +5,7 @@ import { HomeContent } from "../components/HomeContent";
 import Benefits from "../components/Benefits";
 import Global from "../components/Global";
 import Works from "../components/Works";
-import Testimonial from "../components/Testimonial";
+// import Testimonial from "../components/Testimonial";
 import Intouch from "../components/Intouch";
 import Bottom from "../components/Bottom";
 import Footer from "../components/Footer";
@@ -19,7 +19,7 @@ const Home = () => {
      <Benefits/>
      <Works/>
      <Global/>
-     <Testimonial/>
+     {/* <Testimonial/> */}
      <Intouch/>
      <Bottom/>
      <Footer/>

@@ -16,7 +16,7 @@ const Bottom = () => {
           link: '/shop',
         },
         {
-            heading: "I'm a Drop-Shipper",
+            heading: "Try Drop-Shipping",
             icon: vending,
             text: 'Sell your own products or hit up one of our suppliers',
             btn:'Get Started', 

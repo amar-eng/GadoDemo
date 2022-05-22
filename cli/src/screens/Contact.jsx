@@ -9,7 +9,7 @@ const Contact = () => {
       <div className='contact'>
           <Navbar/>
           <h1 className='contact__header'>
-                Contact Us
+                Let's Talk
           </h1>
           <div className='contact__info'>
             <div className='contact__phone'>
